@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+  ],
+  "rangeStrategy": "pin",
+  "lockFileMaintenance": {
+    "schedule": [
+      "at any time"
+    ],
+    "enabled": true,
+    "automerge": true,
+    "automergeType": "branch",
+    "ignoreTests": true,
+  },
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true,
+      "automergeType": "branch",
+      "ignoreTests": true,
+    },
+  ],
+  "gitAuthor": "sunnz <1378551+sunnz@users.noreply.github.com>",
+}
