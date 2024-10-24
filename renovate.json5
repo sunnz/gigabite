@@ -21,6 +21,11 @@
       "automergeType": "branch",
       "ignoreTests": true,
     },
+    {
+      "matchManagers": ["pub"],
+      "matchPackageNames": ["dart"],
+      "enabled": false,
+    },
   ],
   "gitAuthor": "sunnz <1378551+sunnz@users.noreply.github.com>",
 }
