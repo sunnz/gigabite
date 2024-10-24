@@ -22,6 +22,14 @@
       "ignoreTests": true,
     },
     {
+      "matchPackageNames": [
+        "com.android.application:com.android.application.gradle.plugin",
+        "gradle",
+      ],
+      "matchManagers": ["gradle", "gradle-wrapper"],
+      "groupName": "gradle and android gradle plugin",
+    },
+    {
       "matchManagers": ["pub"],
       "matchPackageNames": ["dart"],
       "enabled": false,
