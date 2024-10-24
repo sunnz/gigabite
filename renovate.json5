@@ -22,6 +22,16 @@
       "ignoreTests": true,
     },
     {
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["digest", "pinDigest"],
+      "automerge": true,
+      "automergeType": "branch",
+      "ignoreTests": true,
+      "schedule": [
+        "every weekend",
+      ],
+    },
+    {
       "matchPackageNames": [
         "com.android.application:com.android.application.gradle.plugin",
         "gradle",
