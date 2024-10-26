@@ -41,8 +41,9 @@
     },
     {
       "matchManagers": ["pub"],
-      "matchPackageNames": ["dart"],
-      "enabled": false,
+      "matchPackageNames": ["dart", "flutter"],
+      "matchDatasources": ["dart-version", "flutter-version"],
+      "groupName": "flutter sdk",
     },
   ],
   "gitAuthor": "sunnz <1378551+sunnz@users.noreply.github.com>",
