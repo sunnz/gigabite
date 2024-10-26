@@ -1,10 +1,12 @@
 name: Test Build
 
 on:
-  workflow_dispatch
+  push:
+  workflow_dispatch:
 
 jobs:
   build:
+    name: Build
     runs-on: ubuntu-latest
     permissions:
       contents: write # to be able to publish a GitHub release
