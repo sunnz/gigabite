@@ -11,7 +11,6 @@
     "enabled": true,
     "automerge": true,
     "automergeType": "branch",
-    "ignoreTests": true,
   },
   "packageRules": [
     {
@@ -19,21 +18,19 @@
       "matchCurrentVersion": "!/^0/",
       "automerge": true,
       "automergeType": "branch",
-      "ignoreTests": true,
     },
     {
       "matchManagers": ["github-actions"],
       "matchUpdateTypes": ["digest", "pinDigest"],
       "automerge": true,
       "automergeType": "branch",
-      "ignoreTests": true,
       "schedule": [
         "every weekend",
       ],
     },
     {
       "matchPackageNames": [
-        "com.android.application:com.android.application.gradle.plugin",
+        "com.android.application*",
         "gradle",
       ],
       "matchManagers": ["gradle", "gradle-wrapper"],
@@ -46,5 +43,4 @@
       "groupName": "flutter sdk",
     },
   ],
-  "gitAuthor": "sunnz <1378551+sunnz@users.noreply.github.com>",
 }
