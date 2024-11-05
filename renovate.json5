@@ -6,7 +6,7 @@
   "rangeStrategy": "pin",
   "lockFileMaintenance": {
     "schedule": [
-      "every weekend",
+      "before 4am",
     ],
     "enabled": true,
     "automerge": true,
