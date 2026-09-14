@@ -306,4 +306,4 @@ packages:
     version: "3.1.4"
 sdks:
   dart: "3.13.3"
-  flutter: "3.47.3"
+  flutter: "3.47.4"
